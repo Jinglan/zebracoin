@@ -1,7 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ * Author: Jinglan Wang, original css skeleton courtesy of Start Bootstrap;
  */
 
 body {
@@ -26,20 +24,21 @@ h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
     font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size:300%;
+    font-weight: 200;
+    letter-spacing: 3px;
 }
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 1.6;
     }
 }
@@ -89,7 +88,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #fff;
+    color: #a6ce39;
 }
 
 .navbar-custom .nav li a {
@@ -147,7 +146,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.png) no-repeat bottom center scroll;
+    background: url(../img/LandingPage.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
