@@ -17,9 +17,23 @@ html {
 }
 
 h1,
-h2,
+h2{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:400%;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
 h3,
-h4,
+h4{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Bebas Neue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:200%;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
 h5,
 h6 {
     margin: 0 0 35px;
@@ -317,7 +331,7 @@ a:focus {
 .page-about .about-items .about-overlay .social-icons i {
     display: inline-block
 }
-.span4 {
+.col-xs-6 col-md-4 {
     width: 311px
 }
 .img-circle {
@@ -394,16 +408,16 @@ a.thumbnail:focus {
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("../img/icon/sicon-set.png");
+    background-image: url("./img/icons/sicon-set.png");
     background-repeat: no-repeat;
     text-indent: -99999px;
     text-align: center
 }
 .sicon-white i {
-    background-image: url("./img/icon/sicon-set-white.png")
+    background-image: url("./img/icons/sicon-set-white.png")
 }
 .sicon-black i {
-    background-image: url("./img/icon/sicon-set.png")
+    background-image: url("./img/icons/sicon-set.png")
 }
 .sicon-search i {
     background-position: 3px 0
@@ -451,7 +465,7 @@ a.thumbnail:focus {
     background-color: #fff
 }
 .social-icons.bordered a:hover i {
-    background-image: url("../img/icon/sicon-set.png")
+    background-image: url("./img/icons/sicon-set.png")
 }
 .social-icons.bordered-black {
     border-right: 2px solid #292929
@@ -464,7 +478,7 @@ a.thumbnail:focus {
     background-color: #292929
 }
 .social-icons.bordered-black a:hover i {
-    background-image: url("../img/icon/sicon-set-white.png")
+    background-image: url("./img/icons/sicon-set-white.png")
 }
 .social-icons.hover-big [class^="sicon-"],
 .social-icons.hover-big [class*=" sicon-"] {
@@ -481,7 +495,7 @@ a.thumbnail:focus {
     transition: all .3s ease-in-out
 }
 .social-icons.hover-big a:hover i {
-    background-image: url("../images/css/sicon-set-white.png")
+    background-image: url("./img/icons/sicon-set-white.png")
 }
 .social-icons.hover-big .sicon-facebook:hover {
     background-color: #3b5998
