@@ -408,16 +408,16 @@ a.thumbnail:focus {
     *margin-right: .3em;
     line-height: 14px;
     vertical-align: text-top;
-    background-image: url("./img/icons/sicon-set.png");
+    background-image: url(../img/icons/sicon-set.png);
     background-repeat: no-repeat;
     text-indent: -99999px;
     text-align: center
 }
 .sicon-white i {
-    background-image: url("./img/icons/sicon-set-white.png")
+    background-image: url(../img/icons/sicon-set-white.png)
 }
 .sicon-black i {
-    background-image: url("./img/icons/sicon-set.png")
+    background-image: url(../img/icons/sicon-set.png)
 }
 .sicon-search i {
     background-position: 3px 0
@@ -465,7 +465,7 @@ a.thumbnail:focus {
     background-color: #fff
 }
 .social-icons.bordered a:hover i {
-    background-image: url("./img/icons/sicon-set.png")
+    background-image: url(../img/icons/sicon-set.png)
 }
 .social-icons.bordered-black {
     border-right: 2px solid #292929
@@ -478,7 +478,7 @@ a.thumbnail:focus {
     background-color: #292929
 }
 .social-icons.bordered-black a:hover i {
-    background-image: url("./img/icons/sicon-set-white.png")
+    background-image: url(../img/icons/sicon-set-white.png)
 }
 .social-icons.hover-big [class^="sicon-"],
 .social-icons.hover-big [class*=" sicon-"] {
@@ -495,7 +495,7 @@ a.thumbnail:focus {
     transition: all .3s ease-in-out
 }
 .social-icons.hover-big a:hover i {
-    background-image: url("./img/icons/sicon-set-white.png")
+    background-image: url(../img/icons/sicon-set-white.png)
 }
 .social-icons.hover-big .sicon-facebook:hover {
     background-color: #3b5998
