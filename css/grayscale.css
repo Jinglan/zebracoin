@@ -8,7 +8,8 @@ body {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:100;
     color: #fff;
-    background-color: #000;
+    background-color: #fff;
+    color:#647882;
 }
 
 html {
@@ -24,6 +25,7 @@ h2{
     font-size:400%;
     font-weight: 200;
     letter-spacing: 3px;
+    color:#647882;
 }
 h3,
 h4{
@@ -33,6 +35,7 @@ h4{
     font-size:200%;
     font-weight: 200;
     letter-spacing: 3px;
+    color:#647882;
 }
 h5,
 h6 {
@@ -163,7 +166,7 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
+    color: #000;
     background: url(../img/LandingPage.png) no-repeat bottom center scroll;
     /*!
     * for better visibility of the text on the landing page
@@ -287,7 +290,7 @@ a:focus {
 .page-about .about-items .item {
     position: relative;
     display: inline-block;
-    color: #fff;
+    color: #000000;
     overflow: hidden
 }
 .page-about .about-items .item:hover .about-overlay {
@@ -331,9 +334,6 @@ a:focus {
 }
 .page-about .about-items .about-overlay .social-icons i {
     display: inline-block
-}
-.col-xs-6 col-md-4 {
-    width: 311px
 }
 .img-circle {
     -webkit-border-radius: 500px;
@@ -532,6 +532,18 @@ a.thumbnail:focus {
 .smallFontBy08 {
     font-size: .8em;
     line-height: 22.5px
+}
+
+.features-section {
+    width:100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/features.png) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .download-section {
