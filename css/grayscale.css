@@ -529,6 +529,11 @@ a.thumbnail:focus {
     background-color: #000
 }
 
+.smallFontBy08 {
+    font-size: .8em;
+    line-height: 22.5px
+}
+
 .download-section {
     width: 100%;
     padding: 50px 0;
