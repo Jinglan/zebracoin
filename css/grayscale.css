@@ -528,6 +528,9 @@ a.thumbnail:focus {
 .social-icons.hover-big .sicon-clock:hover {
     background-color: #000
 }
+.col-1-2{
+    width:45%;
+}
 
 .smallFontBy08 {
     font-size: .8em;
@@ -536,9 +539,8 @@ a.thumbnail:focus {
 
 .features-section {
     width:100%;
-    padding: 50px 0;
+    padding: 50px;
     color: #fff;
-    background: url(../img/features.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
